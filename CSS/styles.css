@@ -1,0 +1,179 @@
+@charset "UTF-8";
+body {
+    background-color: #FFFFFF;
+    background-image: url(../images/house2.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: actor;
+    font-style: normal;
+    font-weight: 400;
+    margin: 0;
+    height: 100%;
+}
+h1 {
+    font-family: josefin-sans;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 2em;
+    text-align: middle;
+    line-height: 1em;
+    height: 1em;
+    color: #FFFFFF;
+    padding-top: 0px;
+    text-transform: none;
+    font-variant: normal;
+    text-shadow: 1px 1px #000000;
+}
+h2 {
+    font-family: josefin-sans;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.5em;
+    text-align: left;
+}
+footer {
+    font-size: small;
+    text-align: justify;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    height: 79px;
+    width: 100%;
+    color: #000000;
+    padding-right: 16px;
+    padding-left: 45px;
+    padding-bottom: 0.01em;
+    font-family: lustria;
+    font-size: 10px;
+    line-height: 1.5;
+    font-style: normal;
+    font-weight: 400;
+    background-image: url(url);
+    background-color: #FFFFFF;
+    padding-top: 3px;
+}
+
+.asideleft {
+    width: 28%;
+    float: left;
+    margin-left: 5%;
+    margin-right: 1%;
+    margin-top: 30px;
+    padding-top: 90px;
+    padding-left: 0px;
+}
+h0 {
+    padding-left: 35px;
+    margin-left: -14px;
+    text-align: center;
+}
+.sectionright {
+    width: 55%;
+    float: right;
+    margin-right: 5%;
+    margin-top: 90px;
+    margin-left: 1%;
+    padding-left: 2.5%;
+    padding-right: 2.5%;
+    padding-top: 2.5%;
+    padding-bottom: 2.5%;
+    font-family: lustria;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75em;
+    background-color: #FFFFFF;
+    margin-bottom: 150px;
+}
+header {
+    text-align: center;
+    margin-top: 70px;
+}
+nav {
+}
+.navlist {
+    margin: 0px;
+    padding: 0px;
+    list-style-type: none;
+    overflow: hidden;
+}
+.navlistitem {
+    float: left;
+}
+.navlistitem a {
+    text-decoration: none;
+    display: block;
+    padding-top: 14px;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-bottom: 16px;
+    color: #999999;
+    font-family: josefin-sans;
+    font-style: normal;
+    font-weight: 100;
+}
+.navlistitem a:hover {
+    color: #000000;
+    background-color: #F4E9FF
+}
+.navbar.fixed-top.navbar-expand-lg.navbar-light.bg-light .navbar-brand {
+    font-family: josefin-sans;
+    font-style: normal;
+    font-weight: 700;
+}
+.sectionbelow {
+    padding-top: 0px;
+}
+.formStyle {
+    width: 100%;
+}
+
+@media (max-width: 650px){
+	.asideleft {
+   		 width: 90%;
+   		 float: none;
+  	     margin-left: 5%;
+   		 margin-right: 5%;
+   		 margin-top: 30px;
+		}
+	.sectionright {
+    width: 90%;
+    float: none;
+    margin-right: 5%;
+    margin-top: 62px;
+    margin-left: 5%;
+    margin-bottom: 100px;
+    background-color: #F5F5F5;
+	   	}
+	body {
+ 		   background-color:#C8B1D8;
+ 		   background-image: url();
+ 		   background-size: cover;
+		   background-attachment: fixed;
+   		   font-family: actor;
+   		   font-style: normal;
+ 		   font-weight: 400;
+ 		   margin: 0;
+ 		   height: 100%;	
+		}
+	h1 {
+   		 font-family: josefin-sans;
+   		 font-style: normal;
+   		 font-weight: 300;
+   		 font-size: 2.5em;
+   		 text-align: center;
+   		 line-height: 1em;
+   		 height: 1em;
+   		 color: #FFFFFF;
+   		 padding-top: 0px;
+   		 text-shadow: 1px 1px #000000;
+		}
+	header {
+    	 margin-top: 30px;
+		}
+	p {
+    	font-size: large;
+	}
+	h2 {
+    	font-size: 2em;
+}
+}
